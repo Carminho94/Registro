@@ -1,4 +1,4 @@
-# Elden Ring — Site Fã
+# Elden Ring — Site
 
 Um site simples inspirado no jogo **Elden Ring**, com informações sobre personagens, bosses, armas e cenários.
 
