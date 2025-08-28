@@ -1,54 +1,65 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Elden Ring</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ghost of Tsushima — Fã-site</title>
   <link rel="stylesheet" href="styles.css">
-  <script defer src="script.js"></script>
+  <script defer src="bundle.js"></script>
 </head>
 <body>
-  <header>
-    <div class="brand">
-      <img src="C:\Users\RaphaelCarmoMendes\Pictures\download (1).jfif" alt="Logo Elden Ring" width="50">
-      <h1>Elden Ring</h1>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand"><h1>Ghost of Tsushima</h1><p class="tag">Fã-site</p></div>
+      <nav class="nav">
+        <a href="#home">Início</a>
+        <a href="#explore">Explorar</a>
+        <a href="#armors">Armaduras</a>
+        <a href="#gallery">Galeria</a>
+      </nav>
     </div>
-    <nav>
-      <a href="#personagens">Personagens</a>
-      <a href="#bosses">Bosses</a>
-      <a href="#armas">Armas</a>
-      <a href="#cenarios"  >Cenários</a>
-    </nav>
   </header>
 
-  <section class="hero">
-    <h2>O jogo que marcou uma geração</h2>
-    <p>Lançado em 25 de fevereiro de 2022 pela FromSoftware.</p>
-    <img src="C:\Users\RaphaelCarmoMendes\Pictures\the-best-elden-ring-8k-wallpaper-i-found-looks-amazing-on-v0-fgyx4r93rnaa1.jpg" alt="Imagem do jogo Elden Ring">
-  <section id="bosses">
-    <h2>Bosses</h2>
-    <div class="grid">
-      <div class="card">
-        <img src="C:\Users\RaphaelCarmoMendes\Pictures\download (2).jfif" alt="Malenia">
-        <h3>Malenia</h3>
+  <main>
+    <section id="home" class="hero" style="background-image:url('assets/hero-jin.png')">
+      <div class="hero-copy container">
+        <h2>A jornada de Jin Sakai</h2>
+        <p>Entre os ventos da ilha, a luta pela honra e liberdade se desenrola.</p>
       </div>
-      <div class="card">
-        <img src="C:\Users\RaphaelCarmoMendes\Pictures\download (3).jfif" alt="Godrick">
-        <h3>Godrick, o Enxertado</h3>
-      </div>
-      <div class="card">
-        <img src="C:\Users\RaphaelCarmoMendes\Pictures\download (4).jfif" alt="Radahn">
-        <h3>General Radahn</h3>
-      </div>
-    </div>
-  <section id="cenarios">
-    <h2>Cenários</h2>
-    <p>Um mundo vasto e sombrio: Limgrave, Caelid, Liurnia, Altus Plateau e muito mais.</p>
-    <img src="C:\Users\RaphaelCarmoMendes\Pictures\ER_Limgrave_First_Step_Panorama.webp" alt="Cenário Elden Ring">
-  </section>
+    </section>
 
-  <footer>
-    <p>Obrigado pela atenção ©JogoZika</p>
+    <section id="explore" class="explore container">
+      <div class="grid-two">
+        <div>
+          <h3>Exploração</h3>
+          <p>Paisagens vastas, natureza vibrante e momentos de contemplação definem Tsushima.</p>
+        </div>
+        <img src="assets/landscape-field.png" alt="Paisagem de Tsushima">
+      </div>
+    </section>
+
+    <section id="armors" class="armors container">
+      <h3>Armaduras</h3>
+      <p>Cada armadura traz consigo tradição e função. Veja detalhes.</p>
+      <div class="grid-three">
+        <a href="armor1.html"><img src="assets/armors-characters.png" alt="Armaduras - clique para ver detalhes"></a>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery container">
+      <h3>Galeria</h3>
+      <div class="grid-three">
+        <img src="assets/hero-jin.png" alt="Jin">
+        <img src="assets/landscape-field.png" alt="Paisagem">
+        <img src="assets/armors-characters.png" alt="Armaduras">
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Fã-site. Imagens fornecidas pelo usuário. Direitos pertencem aos criadores oficiais.</p>
+    </div>
   </footer>
 </body>
 </html>
